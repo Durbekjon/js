@@ -1,5 +1,5 @@
-function check(yil) {
-  if ((yil % 4 == 0 && yil % 100 != 0) || yil % 400 == 0) {
+function check(year) {
+  if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
     return true
   } else {
     return false
