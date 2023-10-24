@@ -6,8 +6,7 @@ function check(yil) {
   }
 }
 
-// Misol
-let year = 2028 // Yilni o'zgartiring
+let year = 2028
 let kabisa = check(year)
 
 if (kabisa) {
